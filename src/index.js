@@ -1,2 +1,14 @@
-const name = 'Andrea';
-const helloWorld = <h1>Hello, {name}!</h1>
+const user = {
+    firstName: "Franco",
+    lastName: "Rossi"
+};
+
+function helloWorld (name) {
+    return user.firstName;
+}
+
+const element = (
+    <h1>
+        Hello, {helloWorld(user)}!
+    </h1>
+)
