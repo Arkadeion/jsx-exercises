@@ -1,14 +1,5 @@
-const user = {
-    firstName: "Franco",
-    lastName: "Rossi"
-};
+const name = "Franco";
 
 function helloWorld (name) {
-    return user.firstName;
+    return <h1>Hello, {name}</h1>;
 }
-
-const element = (
-    <h1>
-        Hello, {helloWorld(user)}!
-    </h1>
-)
