@@ -6,7 +6,7 @@ function sumParameters(a, b) {
 }
 
 const component = (
-    <h1>
+    <div>
         {sumParameters(a, b)}
-    </h1>
+    </div>
 )
